@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <main charset="UTF-8"></main>
+    <title>contacter le professeur</title>
+
+</head>
+<body>
+    <h1>Envoyer un message au professeur</h1>
+    <FROM>
+        <div>
+            <label for="nom">nom</label>
+            <input type="text" name="nom" id="nom" >
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email">    
+        </div>
+        <div>
+            <label for="message">message</label>
+            <textarea name="message" rows="5" cols="30"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Envoyer">
+        </div>
+    </FROM>
+</body>
